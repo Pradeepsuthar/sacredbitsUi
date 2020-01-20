@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css?family=Lalezar|Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Sacramento');
+*{
+	margin:0;
+	padding:0;
+}
+body
+{
+	width:100%;
+}
+/*Make the selected text #fff on a #e96656 background:*/
+
+::-moz-selection { /* Code for Firefox */
+    color: #fff;
+    background: #e96656;
+}
+::selection {
+    color: #fff; 
+    background: #e96656;
+}
+.left
+{
+	float:left;
+	text-align:left;
+}
+.right
+{
+	float:right;
+	text-align:right;
+}
+.center
+{
+	float:center;
+	text-align:center;
+}
+.banner-text
+{
+	color:#fff;
+	font-family: 'Lalezar', cursive;
+	font-size:50px;
+    margin: 0 auto;
+    padding: 10px;
+    width: 50%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.width{width:100%;}
+.padding{padding:10px}
+.margin{margin:50px auto;}
+.margin-top{margin-top:100px;margin-bottom:100px}
+.pointer{cursor:pointer;}
+.text-white{color:#fff;}
+
+.fa
+{
+	font-size:20px;
+	padding:5px;
+	text-align:center;
+	color:#999595;
+}
+.fa-facebook:hover
+{
+	cursor:pointer;
+	color:#3B5998;
+}
+.fa-linkedin:hover
+{
+	cursor:pointer;
+	color:red;
+}
+/*Service logo*/
+.service-logo
+{
+	width:120px;
+	height:120px;
+	border:5px solid #e2e2e2;
+	border-radius:50%;
+}
+.pointer1:hover
+{
+	cursor:pointer;
+	border-radius:50%;
+	border:6px solid #e96656;
+}
+.pointer2:hover
+{
+	cursor:pointer;
+	border-radius:50%;
+	border:6px solid #34d293;
+}
+.pointer3:hover
+{
+	cursor:pointer;
+	border-radius:50%;
+	border:6px solid #21b8ff;
+}
+.pointer4:hover
+{
+	cursor:pointer;
+	border-radius:50%;
+	border:6px solid #ffc870;
+}
+.title-text{font-size:40px;font-weight:bold;color:#424240;}
+.text
+{
+	color:#404040;   
+	text-align: justify;
+    text-justify: inter-word;
+}
+.user-name-text
+{
+	color:#404040;   
+}
+
+/*header & Navbar*/
+.header
+{
+	background-color:#fff;
+	color:#000;
+	width:100%;
+	height:80px;
+	line-height:80px;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+.brand-logo
+{
+	padding:5px;
+	margin-left:70px;
+	width:55px;
+	height:65px;
+}
+.navbar ul li
+{
+	line-height:80px;
+	list-style:none;
+	float:left;
+	margin-right:30px;
+}
+.navbar ul li a
+{
+	padding:10px;
+	text-decoration:none;
+	font-family: 'Quicksand', sans-serif;
+	color:#5b5a59;
+}
+.navbar ul li a:hover
+{
+	color:#fc643f;
+}
+
+/*parallax*/
+.parallax1 {
+    /* The image used */
+    background-image: url("../image/bg.jpg");
+
+    /* Set a specific height */
+    min-height: 800px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax2 {
+    /* The image used */
+    background-image: url("../image/bg.jpg");
+
+    /* Set a specific height */
+    min-height: 300px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	 -webkit-filter: opacity(50%); /* Safari 6.0 - 9.0 */
+    filter: opacity(80%);
+}
+.form-parallax
+{
+	 /* The image used */
+    background-image: url("../image/bg.jpg");
+
+    /* Set a specific height */
+    min-height: 600px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	 -webkit-filter: opacity(50%); /* Safari 6.0 - 9.0 */
+    filter: opacity(80%);
+}
+
+/*buttons*/
+.text-us
+{
+	background-color:#2d4f22;
+	color:#fff;
+}	
+.text-us:hover
+{
+	background-color:#336323;
+	color:#fff;
+}
+.learn-more:hover
+{
+	background-color:#d15d3c;
+	color:#fff;
+}
+.learn-more
+{
+	background-color:#e96656;
+	color:#fff;	
+}
+.contact-us
+{
+	background-color:#1e9e6b;
+	color:#fff;	
+}
+.contact-us:hover
+{
+	background-color:#21af38;
+	color:#fff;
+}
+.submit
+{
+	background-color:#e96656;
+	color:#fff;	
+}
+.submit:hover
+{
+	background-color:#cc4a3b;
+	color:#fff;	
+}
+
+/*Sections*/
+.about-section
+{
+	background-color:#232322;
+	color:#fff;
+}
+.testimonials-section
+{
+	background-color:#8c7620;
+	color:#fff;
+	min-height:100vh;
+}
+.profile
+{
+	width:70px;
+	height:70px;
+	border-radius:50%;
+}
+/*q{font-size:60px;color:#e96656;font-family: 'Quicksand', sans-serif;}*/
+.signature
+{
+	font-family: 'Sacramento', cursive;
+	font-size:30px;
+}
+.card
+{padding:10px;}
+.section2
+{
+	padding: 100px 0 100px 0;
+	background:rgba(52, 210, 147, 0.8);
+	width:100%;
+	min-height: 300px; 
+}
+.section3
+{
+	background-color:#e96656;
+	color:#fff;
+}
+
+.team-member
+{
+	width:150px;
+	height:150px;
+	border-radius:50%;
+	margin-bottom:40px;
+}
+
+/*Conatct Form*/
+.input{margin-top:30px;border:none;}
+
+/*Footer*/
+.footer
+{
+	background-color:#272727;
+	color:#fff;
+}
+
+
+
